@@ -13,7 +13,8 @@ curl -sSL https://raw.githubusercontent.com/christianbundy/shit/master/shit.zsh 
 
 ## Usage
 
-1. Do something wrong, like try to update APT without root privs.
+1. Do something wrong, like try to update your package cache without root priveleges.
+2. Shit.
 
 ```sh
 $ apt-get update
