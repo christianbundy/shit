@@ -16,7 +16,7 @@ curl -sSL https://raw.githubusercontent.com/christianbundy/shit/master/shit.zsh 
 1. Do something wrong, like try to update your package cache without root priveleges.
 2. Shit.
 
-```command
+```console
 [user@host] $ apt-get update
 E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
 E: Unable to lock directory /var/lib/apt/lists/
