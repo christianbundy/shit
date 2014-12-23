@@ -16,14 +16,14 @@ curl -sSL https://raw.githubusercontent.com/christianbundy/shit/master/shit.zsh 
 1. Do something wrong, like try to update your package cache without root priveleges.
 2. Shit.
 
-```sh
-$ apt-get update
+```command
+[user@host] $ apt-get update
 E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
 E: Unable to lock directory /var/lib/apt/lists/
 E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
 E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
 
-$ shit
+[user@host] $ shit
 0% [Connecting to archive.ubuntu.com] [Connecting to security.ubuntu.com]
 ```
 
